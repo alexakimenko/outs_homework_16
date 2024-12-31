@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: "v0.0.285"  # Use the latest stable tag or commit SHA
+    hooks:
+      - id: ruff
+        name: ruff
+        args: [--fix]  # optional: auto-fix
+        additional_dependencies: []
