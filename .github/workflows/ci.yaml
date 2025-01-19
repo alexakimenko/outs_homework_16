@@ -32,4 +32,4 @@ jobs:
 
     - name: Run tests
       working-directory: ./src
-      run: uv run pytest
+      run: python manage.py test
